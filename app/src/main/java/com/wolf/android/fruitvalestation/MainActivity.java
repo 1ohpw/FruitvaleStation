@@ -17,4 +17,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, DalyCityActivity.class);
         startActivity(i);
     }
+
+    public void openDublinPleasantonActivity(View view) {
+        Intent i = new Intent(this, DublinPleasantonActivity.class);
+        startActivity(i);
+    }
 }
